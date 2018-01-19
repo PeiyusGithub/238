@@ -15,6 +15,6 @@ getpid() return current process's id
 the wait() keeps waiting until child process finish, it does not matter when the parent process execute, it has to wait for the child first.
 
 **exec()**   
-exec() does not create a new process, rather, it transforms the currently running program into a different running program 
+exec() does not create a new process, rather, it transforms the currently running program into a different running program
 
 **redirection**: the output of one process seamlessly used as input to the next.
