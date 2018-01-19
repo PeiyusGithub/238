@@ -2,11 +2,12 @@
 
 **fork()**  
 the fork() system call, create a copy of current process: child and parent(original process)  
-they both execute the code next to  line fork(), unordered.   
+they both execute the code next to  line fork(), unordered.
+
 fork return value | meaning
 ------|---
 negative| error
-0|child
+0|child  
 positive|parent, and the value is child pid
 
 getpid() return current process's id
